@@ -1,0 +1,208 @@
+.thumbnail img {
+  max-height: 100%
+}
+.index-image-containter {
+  height: 240px;
+  display: flex;
+  align-items: center
+}
+.animalProfile img {
+  box-shadow: 0px 0px 39px 3px rgba(0,0,0,0.62);
+  border-radius: 5px
+}
+.animal-image {
+  min-width: 100%;
+  min-height: 100%
+}
+.errors li {
+	display: block;
+	text-align: center
+}
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../images/ajax-loader-blue.gif') 50% 50% no-repeat rgb(249,249,249)
+}
+
+.thumbnail img {
+  width: 100%;
+  max-height: 100%
+}
+.index-image-containter {
+  height: 240px;
+  display: flex;
+  align-items: center
+}
+#body {
+  background-image: url('../images/background2.jpg');
+  background-repeat: repeat;
+  font-family: 'Sumana', serif;
+}
+.animal-image {
+  min-width: 100%;
+  min-height: 100%
+}
+.myAnnimalsName {
+  font-size: 24px
+}
+.animal-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-left: 10px
+}
+.animal-age {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 5px;
+  margin-right: 10px
+} 
+.unseen. {
+  background-color: #337ab7;
+  color: white
+}
+.response {
+  margin-right: 10px;
+  margin-bottom: 10px
+}
+.myLabel {
+    border: 2px solid #AAA;
+    border-radius: 4px;
+    padding: 2px 5px;
+    background: #DDD;
+    display: inline-block;
+}
+label.myLabel input[type="file"] {
+    position: fixed;
+    top: -1000px;
+}
+.panel-title.row {
+  cursor: pointer
+}
+.profile-images {
+  padding: 5px;
+  margin: 5px;
+  display: none
+}
+.profile-images-add {
+  display: block
+}
+.form-group {
+  margin-bottom: 5px
+}
+.show-more-images {
+  margin-top: 10px
+}
+.selected {
+    width: 100%;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    z-index: 200;
+}
+.selected img {
+    float: left;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 85%;
+    position: absolute;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.selected .current-image {
+    position: absolute;
+    left: 10%;
+    width: 80%;
+}
+.selected .next-image {
+    position: absolute;
+    left: 82.8%;
+    width: 15%;
+}
+.selected .previous-image {
+    position: absolute;
+    top: 50%;
+    left: 2.2%;
+    width: 15%;
+}
+.blurred {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+i.fa.fa-pencil.name {
+  cursor: pointer
+}
+.textarea {
+  display: block
+}
+.thumbnail.hoover:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.messave-hover:hover {
+  background-color: lightgrey
+}
+#searchQuery {
+  background-color: grey;
+  display: none;
+  width: 100%;
+  height: 100px;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  padding: 0
+}
+.image-delete-button {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+}
+.image-default-button {
+  position: absolute;
+  top: 0px;
+  left: 15px
+}
+.image-change-button:hover {
+  transform: scale(1.1);
+}
+.image-delete-button:hover {
+  transform: scale(1.1);
+}
+.btn.btn-danger.col-xs-2 {
+  text-align: center;
+  padding-left: 6px
+}
+.thumbnail {
+  box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.45), inset 0px 0px 20px 3px rgba(0,0,0,0.45);
+  border: none
+}
+.animalProfile img {
+  box-shadow: 0px 0px 39px 3px rgba(0,0,0,0.62);
+  border-radius: 5px
+}
+div.hiddenAnimal {
+  opacity: 0;
+  transform: rotateY(90deg)
+}
+.transformHidden {
+  opacity: 1;
+  transform: rotateY(0deg); transition: all 0.5s ease
+}
+.message-panel-heading {
+  box-shadow: inset 0px 0px 20px 3px rgba(0,0,0,0.45);
+  border-radius: 5px
+}
+.panel-default {
+  border: none
+}
